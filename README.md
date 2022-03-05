@@ -1,4 +1,4 @@
-# search
+# Search
 Project 0 - Harvard CS50 Web Programming with Python and JavaScript
 
 ## Specification
