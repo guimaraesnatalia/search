@@ -1,6 +1,12 @@
 # Search
 Project 0 - Harvard CS50 Web Programming with Python and JavaScript
 
+## Technologies used
+
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
+![SASS](https://img.shields.io/badge/-SASS-05122A?style=flat&logo=sass)&nbsp;
+
 ## Specification
 
 Your website must meet the following requirements:
