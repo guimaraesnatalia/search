@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Google</title>
 </head>
 <body>
+    <nav class="navbar">
+        <a class="search-button" href="image-search.html">
+            Imagens
+        </a>
+        <a class="search-button" href="advanced-search.html">
+            Pesquisa Avançada
+        </a>
+    </nav>
     <div class="container">
         <header class="header">
             <img id="logo" src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"/>
@@ -15,8 +23,7 @@
         <form action="http://www.google.com/search">
             <input class ="text-box" type="text" name="q">  
             <div class="button-group">
-               <input type="submit"  class="submit-button" value="Pesquisa Google" />
-                <input type="submit"  class="submit-button" value="Estou com sorte" />  
+               <input type="submit"  class="submit-button" value="Pesquisa Google" /> 
             </div>           
         </form>
     <div>

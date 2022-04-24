@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Pesquisa Avançada</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar">
+                <img class="logo-header" src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"/>
+                
+                <div>
+                    <a class="search-button" href="index.html">
+                        Google Search
+                    </a>
+                    <a class="search-button" href="image-search.html">
+                        Imagens
+                    </a>
+                </div>
+            </nav>
+            <label class="page-description">Pesquisa avançada</label>
+            <hr>
+
+            <form class="advanced-search-form" action="https://www.google.com/search">
+                <span>Localizar páginas com...</span>
+                <div>
+                    <div class="container-field">
+                        <label class="advanced-form-label">todas estas palavras:</label>
+                        <input type="text" name="as_q" class="advanced-input">
+                        <div class="comment">
+                            <span class="field-comment">Digite as palavras importantes:</span>
+                            <span class="field-example">rat terrier tricolor</span>
+                        </div>
+                    </div>
+                    <div class="container-field">
+                        <label class="advanced-form-label">esta expressão ou frase exata:</label>
+                        <input type="text" name="as_epq" class="advanced-input">
+                        <div class="comment">
+                            <span class="field-comment">Coloque palavras exatas entre aspas: </span>
+                            <span class="field-example">"rat terrier"</span>
+                        </div>
+                    </div>
+                    <div class="container-field">
+                        <label class="advanced-form-label">qualquer uma destas palavras:</label>
+                        <input type="text" name="as_oq" class="advanced-input">
+                        <div class="comment">
+                            <span class="field-comment">Digite OR entre todas as palavras que você procura: </span>
+                            <span class="field-example">miniatura OR padrão</span>
+                        </div>
+                    </div>
+                    <div class="container-field">
+                        <label class="advanced-form-label">nenhuma destas palavras:</label>
+                        <input type="text" name="as_eq" class="advanced-input">
+                        <div class="comment">
+                            <span class="field-comment">Coloque um sinal de menos antes das palavras que você não quer: </span>
+                            <span class="field-example">-roedor, -"Jack Russell"</span>
+                        </div>
+                    </div>
+                    <div class="container-field">
+                        <label class="advanced-form-label">números que variam de:</label>
+                        <div class="quantitative-input-container">
+                            <input type="text" name="as_nlo" class="quantitative-input">
+                            <span class="connection">a</span>
+                            <input type="text" name="as_nhi" class="quantitative-input">
+                        </div>
+                        <div class="comment">
+                            <span class="field-comment">Coloque 2 pontos finais entre os números e adicione uma unidade de medida: </span>
+                            <span class="field-example">10..35 lb, US$ 300..US$ 500, 2010..2011</span>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Pesquisa avançada" class="submit-button-advanced-seach">
+            </form>
+        </div>
+        
+    </body>
+</html>
